@@ -14,6 +14,7 @@ img{
 
 .item-0{
     grid-area: name;
+    background-color: #EFE0C1;
 }
 
 .item-1{
