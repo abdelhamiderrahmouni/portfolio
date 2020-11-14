@@ -23,6 +23,19 @@ img{
 .grid-container{
     display: grid;
     grid-template-columns: 35% auto;
+    grid-template-rows: auto;
     grid-template-areas: 'image name'
 }
 
+@media only screen and (max-width: 500px) {
+    
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            'name'
+            'image';
+    }
+}
