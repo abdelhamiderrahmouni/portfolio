@@ -12,7 +12,7 @@ h1{
 }
 
 h2::selection, h1::selection, a::selection, div::selection{
-    background: #C72F82;
+    background: #C72F81;
 }
 
 h2{
