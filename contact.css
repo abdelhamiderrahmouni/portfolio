@@ -5,6 +5,16 @@ body{
     text-align: center;
 }
 
+.nav-bar{
+    width: 100%;
+    text-align: center;
+}
+
+.nav-bar > nav > ul{
+    width: 60%;
+    margin-left: 20%;
+}
+
 .message{
     text-align: center;
     color: #2F7827;
@@ -19,6 +29,10 @@ body{
 
 a{
     text-decoration: none;
+    color: #ECDFBF;
+}
+
+a > div{
     color: #ECDFBF;
 }
 
@@ -64,6 +78,12 @@ i{
 }
 
 @media only screen and (max-width: 500px){
+    
+    .nav-bar > nav > ul{
+        width: 100%;
+        margin: auto;
+        padding-top: 16px;
+    }
     
     .message{
         height: 160px;
