@@ -11,8 +11,13 @@ h1{
     
 }
 
+h2::selection, h1::selection, a::selection, div::selection{
+    background: #ff0000;
+}
+
 h2{
     font-size: 18px;
+    color: #1A5B30;
 }
 
 
