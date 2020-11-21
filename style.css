@@ -6,18 +6,18 @@ body{
 }
 
 h1{
-	color: #2F7827;/*#8BBC3E;/*#3E783B; /*#1A5B30;*/
+	color: #009176;/*#2F7827;/*#8BBC3E;/*#3E783B; /*#1A5B30;*/
     font-size: 42px;
     
 }
 
 h2::selection, h1::selection, a::selection, div::selection{
-    background: #C72F81;
+    background: #FC8C78; /*#F1DFD6;/*#9D6B52;/*#3D351B;*/
 }
 
 h2{
     font-size: 18px;
-    color: #1A5B30;
+    color: #00755D;/*#1A5B30;*/
 }
 
 
@@ -64,7 +64,7 @@ ul li{
 
 a{
     text-decoration: none;
-    color: #1A5B30;
+    color: #00755D;/*#F2FEDC;/*#1A5B30;*/
     font-weight: bold;
 }
 

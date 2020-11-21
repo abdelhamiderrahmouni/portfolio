@@ -29,7 +29,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #ECDFBF;
+    color: #00755D;
 }
 
 a > div{
@@ -62,8 +62,8 @@ i{
 .grid-item{
     text-align: center;
     padding: 15%;
-    background-color: #2F7827;
-    border: 1px solid #2F7827;
+    background-color: #009176;
+    border: 1px solid #009176;
     border-radius: 5px;
 }
 
